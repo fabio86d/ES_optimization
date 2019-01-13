@@ -26,3 +26,7 @@ For each ES generation step:
 My general approach: 6 dimensions. The termination condition is the computational time, therefore the number of generations. Self-adaptability has to be tuned to achieve the compromise between quickly converging to the near (possibly local) minimum and having a sufficiently large range of search. The restart option comes to hand when the algorithm is too adapted. After all the parameters (self-adaptability, accuracy) have to be tuned to specific landscape. 
 
 ![](demo_images/Optimization_results.png)
+
+# How to use
+
+run "python ESoptimization.py"
